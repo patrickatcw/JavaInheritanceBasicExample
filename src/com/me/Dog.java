@@ -26,4 +26,21 @@ package com.me;
         this.teeth = teeth;
         this.coat = coat;
     }
+
+    //step 14 adding methods
+    private void chew(){
+
+        //step 15 testing that method
+        System.out.println("Dog.chew() called");
+
+    }
+
+    //step 16 overriding eat method
+    @Override           //overriding a method in the super class
+    public void eat() {
+        System.out.println("Dog.eat() called");  //step 13 calling to test
+        chew();                                    //step 14
+        super.eat();
+    }
+
 }
