@@ -19,6 +19,19 @@ public class Animal {           //Animal is super class
                 this.weight = weight;
         }
 
+        //step 10 adding new methods
+        public void eat(){
+
+            //testing
+            System.out.println("Animal.eat() called");
+
+        }
+
+        //creating additional method
+        public void move(){
+
+        }
+
         //step 6 creating getters for the above
         public String getName() {
                 return name;
