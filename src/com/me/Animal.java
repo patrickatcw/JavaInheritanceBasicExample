@@ -20,8 +20,6 @@ public class Animal {           //Animal is super class
         }
 
         //step 6 creating getters for the above
-
-
         public String getName() {
                 return name;
         }
