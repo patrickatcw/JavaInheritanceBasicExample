@@ -18,4 +18,27 @@ public class Animal {           //Animal is super class
                 this.size = size;
                 this.weight = weight;
         }
+
+        //step 6 creating getters for the above
+
+
+        public String getName() {
+                return name;
+        }
+
+        public int getBrain() {
+                return brain;
+        }
+
+        public int getBody() {
+                return body;
+        }
+
+        public int getSize() {
+                return size;
+        }
+
+        public int getWeight() {
+                return weight;
+        }
 }
