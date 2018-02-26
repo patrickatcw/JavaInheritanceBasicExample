@@ -19,4 +19,6 @@ public class Main {
 }
 
 //printout result;
-// Animal.eat() called
+//Dog.eat() called
+//Dog.chew() called
+//Animal.eat() called
