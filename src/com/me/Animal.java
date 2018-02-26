@@ -10,4 +10,12 @@ public class Animal {           //Animal is super class
         private int size;
         private int weight;
 
+        //step 5 creating constructor for field above
+        public Animal(String name, int brain, int body, int size, int weight) {
+                this.name = name;
+                this.brain = brain;
+                this.body = body;
+                this.size = size;
+                this.weight = weight;
+        }
 }
